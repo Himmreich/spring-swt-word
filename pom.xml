@@ -37,6 +37,14 @@
             <version>3.3.0-I20070606-0010</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
+            <version>12.0.1</version>
+        </dependency>
+        <!-- Thanks for using https://jar-download.com -->
+
+
         <!-- https://mvnrepository.com/artifact/org.eclipse/swt -->
         <dependency>
             <groupId>org.eclipse</groupId>
