@@ -4,3 +4,6 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+    ignore:
+      - dependency-name: "org.springframework.boot:spring-boot-starter-parent"
+        versions: [">=3.0.0"]
