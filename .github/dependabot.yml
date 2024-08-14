@@ -1,9 +1,18 @@
+# Dependabot
+
 version: 2
+
 updates:
-  - package-ecosystem: "maven" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "maven"
+    directory: "/"
     schedule:
-      interval: "weekly"
-    ignore:
-      - dependency-name: "org.springframework.boot:spring-boot-starter-parent"
-        versions: [">=3.0.0"]
+      interval: "daily"
+    commit-message:
+      prefix: "🪶"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "🤖"
